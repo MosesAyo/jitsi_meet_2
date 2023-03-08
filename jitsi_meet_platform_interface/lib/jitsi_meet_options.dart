@@ -6,6 +6,16 @@ import 'feature_flag/feature_flag_helper.dart';
 class JitsiMeetingOptions {
   JitsiMeetingOptions({
     required this.room,
+    this.serverURL,
+    this.subject,
+    this.token,
+    this.audioMuted,
+    this.audioOnly,
+    this.videoMuted,
+    this.userDisplayName,
+    this.userEmail,
+    this.iosAppBarRGBAColor,
+    this.userAvatarURL,
   });
 
   final String room;
@@ -49,5 +59,4 @@ class JitsiMeetingOptions {
   Bundle colorScheme;
   String userAvatarURL;
 */
-
 }
